@@ -17,14 +17,14 @@ const Navbar = () => {
 
   return (
     <nav className="flex items-center justify-between p-4 z-[100] absolute w-full">
-      <Link to="/">
+      <Link to="/netflix-clone">
         <h1 className="text-red-600 uppercase font-bold text-4xl cursor-pointer">
           Netflix
         </h1>
       </Link>
       {user?.email ? (
         <div>
-          <Link to="/account">
+          <Link to="/netflix-clone/account">
             <button className="text-white pr-4">Account</button>
           </Link>
 

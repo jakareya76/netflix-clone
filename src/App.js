@@ -12,11 +12,11 @@ function App() {
     <AuthContextProvider>
       <Navbar />
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/netflix-clone" element={<Home />} />
         <Route path="/signin" element={<SignIn />} />
         <Route path="/signup" element={<SignUp />} />
         <Route
-          path="/account"
+          path="/netflix-clone/account"
           element={
             <ProtectedRoute>
               <Account />

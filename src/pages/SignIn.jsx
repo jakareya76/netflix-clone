@@ -16,7 +16,7 @@ const SignIn = () => {
     serLoginError('');
     try {
       await signIn(email, password);
-      navigate('/');
+      navigate('/netflix-clone');
     } catch (error) {
       serLoginError(error.message);
     }

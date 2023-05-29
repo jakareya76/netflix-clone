@@ -15,7 +15,7 @@ const SignUp = () => {
 
     try {
       await signUp(email, password);
-      navigate('/');
+      navigate('/netflix-clone');
     } catch (error) {
       console.log(error);
     }
